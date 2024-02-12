@@ -1,2 +1,4 @@
 #!/bin/bash
 pwd
+absolute_pat=$(pwd)
+echo  "$absolute_path"
