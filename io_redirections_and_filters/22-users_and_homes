@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d:
+cut -d: -f6 |sort -t: -k1
