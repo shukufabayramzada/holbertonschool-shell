@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "%bestchol\n" $((2#${WATER//[^ewatr]} + 3#${STIR//[^tir.]})) 
