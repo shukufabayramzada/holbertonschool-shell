@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%bestchol\n" $((2#${WATER//[^ewatr]} + 3#${STIR//[^tir.]})) 
+printf "obase=8; %s\n" "$(( 5#$(echo $WATER | tr "ewatr" "01234") + 5#$(echo $STIR | tr "stir." "01234") ))" | bc | tr "01234567" "bestchol"
